@@ -34,6 +34,10 @@ export default {
   border-radius: 10px;
   margin-top: 4rem;
   padding: 2rem 2rem;
+  @media only screen and (max-width: 600px) {
+    width: 62%;
+    margin: 2rem 0;
+  }
   cursor: pointer;
   box-shadow: 2px 6px 11px rgba(0, 0, 0, 0.2);
   .round {
@@ -49,6 +53,7 @@ export default {
     font-size: 16px;
     line-height: 16px;
     transition: transform 0.3s ease-in-out;
+    margin-top: 11px;
   }
 }
 </style>

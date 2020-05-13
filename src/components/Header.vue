@@ -29,6 +29,9 @@ export default {};
     &:hover {
       color: #ccc;
     }
+    @media only screen and (max-width: 600px) {
+      font-size: 18px;
+    }
   }
 }
 </style>

@@ -27,8 +27,6 @@ export default {
 
 <style lang="scss" scoped>
 .container {
-  max-width: 1200px;
-  margin: auto;
   h3.title {
     display: inline-block;
     position: relative;
@@ -52,6 +50,9 @@ export default {
     &:hover:after {
       width: 100%;
       margin: auto;
+    }
+    @media only screen and (max-width: 600px) {
+      font-size: 20px;
     }
   }
 }
